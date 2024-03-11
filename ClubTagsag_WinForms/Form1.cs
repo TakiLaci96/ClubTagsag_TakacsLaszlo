@@ -13,7 +13,8 @@ using System.Windows.Forms;
 namespace ClubTagsag_WinForms
 {
     public partial class Form1 : Form
-
+        // Sajnos nem megy rendesen a rögzítés és a módosítás. Index értéket ad át, azaz 0,1,2... 
+        //emiatt összeomlik a retool api... 
     {
         string url = "https://retoolapi.dev/OEDUXm/member";
         HttpClient client = new HttpClient();

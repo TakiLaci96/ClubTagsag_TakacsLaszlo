@@ -27,7 +27,7 @@
 
         public override string ToString()
         {
-            return $"{Fullname} - {Interest}";
+            return $"{Fullname} ";
         }
 
     }
